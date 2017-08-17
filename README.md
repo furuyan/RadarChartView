@@ -8,7 +8,7 @@
 
 ## Usage
 
-```
+```swift
 var dataSet = ChartDataSet()
 dataSet.entries = [ChartDataEntry(value: 100),
                     ChartDataEntry(value: 70),
