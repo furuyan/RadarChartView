@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435439DDC39E2E416453AC1662CDA912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		601545B42ED48D99B581C3D3D58EE093 /* Pods-RadarChartView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E906638126B77B05CA5264C5634ABCF5 /* Pods-RadarChartView_Example-dummy.m */; };
+		60B56F8654ABA0C7DD7507D679A0A304 /* RadarChartView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3411D03F3626476E3E858F0E17F90D /* RadarChartView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6289EB1CCA29B26915E05D88C05B7CDF /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8393F8C38C83DC36783E36DAE26693B /* ChartData.swift */; };
+		6297C286A7F1DD04A22B8B227647A8A2 /* RadarChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E62849E1C99BC6858082870C56A23E9C /* RadarChartView-dummy.m */; };
+		8461554A40BF40F80EE1DCA7A80ADC8B /* Pods-RadarChartView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE7CF1744FF1B406B8738C4766A87FC /* Pods-RadarChartView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E3AD38931A67815E7D8F0CE1BA85B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CD88A6FC24478777E9C40DFFA0955E3E /* RadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9410C801B6C240B31D26DC334D7F3FFC /* RadarChartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB2F28536C1068AE002F60DDC4EAFC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DBC88893D02423459D6B58EB09B40E6;
+			remoteInfo = RadarChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		099FA5193F789665FC7BC5BF710FFD3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112DF0F5C5231E290AA709933C3C4BDA /* Pods-RadarChartView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadarChartView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		15EDDE4BF3C49DD1AEE9576FCCD23415 /* Pods-RadarChartView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RadarChartView_Tests.modulemap"; sourceTree = "<group>"; };
+		1BB398F9F5A8DDA3BDB75E887598002E /* Pods-RadarChartView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RadarChartView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1FEF2700FA22905C64B51A9C210AD2B4 /* Pods-RadarChartView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RadarChartView_Tests-dummy.m"; sourceTree = "<group>"; };
+		32768AF26CB86CD1B72531A81ECF59A4 /* Pods-RadarChartView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RadarChartView_Example.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D012C6561A7183DB4EE13D5CA96E05C /* Pods-RadarChartView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RadarChartView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84A624B750412E5D063989DAB0472380 /* RadarChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RadarChartView-prefix.pch"; sourceTree = "<group>"; };
+		90ABB7455CF1D2793722EE5B65FF87E1 /* Pods-RadarChartView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadarChartView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9410C801B6C240B31D26DC334D7F3FFC /* RadarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartView.swift; path = RadarChartView/Classes/RadarChartView.swift; sourceTree = "<group>"; };
+		9A7B0AFCB53897579C1E7E4495532B77 /* RadarChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RadarChartView.xcconfig; sourceTree = "<group>"; };
+		9C5811EDB2049212F3EB1D39D217B16F /* Pods-RadarChartView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RadarChartView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A74AA5C4F2DA63CA754FECD277EB9C83 /* RadarChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RadarChartView.modulemap; sourceTree = "<group>"; };
+		A802221622365DA4544AFA6F2169D054 /* RadarChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RadarChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8188109DE43F8D1EE7F93AE41E2A9E /* Pods-RadarChartView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RadarChartView_Tests-resources.sh"; sourceTree = "<group>"; };
+		ACD2C6D6B8C28C958E57CBF0A178305F /* Pods-RadarChartView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RadarChartView_Example-resources.sh"; sourceTree = "<group>"; };
+		ACD96B261C54D3EBBBD9CE35590E97C9 /* Pods-RadarChartView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadarChartView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B196098B8CC0797C8C338007487368CC /* Pods-RadarChartView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RadarChartView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B48D30F4602DED398FA10DA68DC8087E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C86F9873E482515573352251A7D21F /* Pods_RadarChartView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadarChartView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E275B547A8B6AFC9497A04CCD1BB28C9 /* Pods-RadarChartView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadarChartView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E297D3B8B1D7885C577FDA838EFCDB6A /* Pods-RadarChartView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RadarChartView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E62849E1C99BC6858082870C56A23E9C /* RadarChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RadarChartView-dummy.m"; sourceTree = "<group>"; };
+		E906638126B77B05CA5264C5634ABCF5 /* Pods-RadarChartView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RadarChartView_Example-dummy.m"; sourceTree = "<group>"; };
+		E9D7DA224BE01B8E482022E477B03CE7 /* Pods-RadarChartView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadarChartView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDE7CF1744FF1B406B8738C4766A87FC /* Pods-RadarChartView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RadarChartView_Example-umbrella.h"; sourceTree = "<group>"; };
+		EE3411D03F3626476E3E858F0E17F90D /* RadarChartView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RadarChartView-umbrella.h"; sourceTree = "<group>"; };
+		EEF75824FD229F53F233B751842DAC56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8393F8C38C83DC36783E36DAE26693B /* ChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartData.swift; path = RadarChartView/Classes/ChartData.swift; sourceTree = "<group>"; };
+		FCC17EEC7339A13FE0202F87A3977D96 /* Pods-RadarChartView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadarChartView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D4CADD850423594D052E2327BB885E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3AD38931A67815E7D8F0CE1BA85B4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50BD48D6B09F7126A7AB5A7EA67635A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435439DDC39E2E416453AC1662CDA912 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0992F5B9CA394DDC7F65FC028A1FF74B /* RadarChartView */ = {
+			isa = PBXGroup;
+			children = (
+				F8393F8C38C83DC36783E36DAE26693B /* ChartData.swift */,
+				9410C801B6C240B31D26DC334D7F3FFC /* RadarChartView.swift */,
+				0F82DCAF5AEF810BD05CA2BD1B4177C2 /* Support Files */,
+			);
+			name = RadarChartView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0F82DCAF5AEF810BD05CA2BD1B4177C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF75824FD229F53F233B751842DAC56 /* Info.plist */,
+				A74AA5C4F2DA63CA754FECD277EB9C83 /* RadarChartView.modulemap */,
+				9A7B0AFCB53897579C1E7E4495532B77 /* RadarChartView.xcconfig */,
+				E62849E1C99BC6858082870C56A23E9C /* RadarChartView-dummy.m */,
+				84A624B750412E5D063989DAB0472380 /* RadarChartView-prefix.pch */,
+				EE3411D03F3626476E3E858F0E17F90D /* RadarChartView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RadarChartView";
+			sourceTree = "<group>";
+		};
+		32F1A1DE15985670FC5B2D196F76E244 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0992F5B9CA394DDC7F65FC028A1FF74B /* RadarChartView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4D0367517A2C1EDACDBA5AC561D11CCB /* Pods-RadarChartView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				099FA5193F789665FC7BC5BF710FFD3E /* Info.plist */,
+				32768AF26CB86CD1B72531A81ECF59A4 /* Pods-RadarChartView_Example.modulemap */,
+				9C5811EDB2049212F3EB1D39D217B16F /* Pods-RadarChartView_Example-acknowledgements.markdown */,
+				FCC17EEC7339A13FE0202F87A3977D96 /* Pods-RadarChartView_Example-acknowledgements.plist */,
+				E906638126B77B05CA5264C5634ABCF5 /* Pods-RadarChartView_Example-dummy.m */,
+				1BB398F9F5A8DDA3BDB75E887598002E /* Pods-RadarChartView_Example-frameworks.sh */,
+				ACD2C6D6B8C28C958E57CBF0A178305F /* Pods-RadarChartView_Example-resources.sh */,
+				EDE7CF1744FF1B406B8738C4766A87FC /* Pods-RadarChartView_Example-umbrella.h */,
+				112DF0F5C5231E290AA709933C3C4BDA /* Pods-RadarChartView_Example.debug.xcconfig */,
+				ACD96B261C54D3EBBBD9CE35590E97C9 /* Pods-RadarChartView_Example.release.xcconfig */,
+			);
+			name = "Pods-RadarChartView_Example";
+			path = "Target Support Files/Pods-RadarChartView_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				32F1A1DE15985670FC5B2D196F76E244 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FD68CB13EBA19EF3CA5A4B976BC0B915 /* Products */,
+				A076A5C39C775A329BB5FFA3CF9CFAFC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A076A5C39C775A329BB5FFA3CF9CFAFC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0367517A2C1EDACDBA5AC561D11CCB /* Pods-RadarChartView_Example */,
+				E796BD64007016506BAC6D65B76B476E /* Pods-RadarChartView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E796BD64007016506BAC6D65B76B476E /* Pods-RadarChartView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B48D30F4602DED398FA10DA68DC8087E /* Info.plist */,
+				15EDDE4BF3C49DD1AEE9576FCCD23415 /* Pods-RadarChartView_Tests.modulemap */,
+				7D012C6561A7183DB4EE13D5CA96E05C /* Pods-RadarChartView_Tests-acknowledgements.markdown */,
+				90ABB7455CF1D2793722EE5B65FF87E1 /* Pods-RadarChartView_Tests-acknowledgements.plist */,
+				1FEF2700FA22905C64B51A9C210AD2B4 /* Pods-RadarChartView_Tests-dummy.m */,
+				E297D3B8B1D7885C577FDA838EFCDB6A /* Pods-RadarChartView_Tests-frameworks.sh */,
+				AC8188109DE43F8D1EE7F93AE41E2A9E /* Pods-RadarChartView_Tests-resources.sh */,
+				B196098B8CC0797C8C338007487368CC /* Pods-RadarChartView_Tests-umbrella.h */,
+				E9D7DA224BE01B8E482022E477B03CE7 /* Pods-RadarChartView_Tests.debug.xcconfig */,
+				E275B547A8B6AFC9497A04CCD1BB28C9 /* Pods-RadarChartView_Tests.release.xcconfig */,
+			);
+			name = "Pods-RadarChartView_Tests";
+			path = "Target Support Files/Pods-RadarChartView_Tests";
+			sourceTree = "<group>";
+		};
+		FD68CB13EBA19EF3CA5A4B976BC0B915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1C86F9873E482515573352251A7D21F /* Pods_RadarChartView_Example.framework */,
+				A802221622365DA4544AFA6F2169D054 /* RadarChartView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4364681D93A8A33BC66CCF933A93CD70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8461554A40BF40F80EE1DCA7A80ADC8B /* Pods-RadarChartView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7860BAD5984A307B56C0CC6A2D7BD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B56F8654ABA0C7DD7507D679A0A304 /* RadarChartView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2361768A3F10E961421C563FB5FFD18C /* Pods-RadarChartView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75DA14584145B9FB02C7834CAE09705 /* Build configuration list for PBXNativeTarget "Pods-RadarChartView_Example" */;
+			buildPhases = (
+				E698E3F75154DA2DF4A207B403346BE3 /* Sources */,
+				04D4CADD850423594D052E2327BB885E /* Frameworks */,
+				4364681D93A8A33BC66CCF933A93CD70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2CBD5C83B5697DADD9C3DB21A71524A /* PBXTargetDependency */,
+			);
+			name = "Pods-RadarChartView_Example";
+			productName = "Pods-RadarChartView_Example";
+			productReference = D1C86F9873E482515573352251A7D21F /* Pods_RadarChartView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DBC88893D02423459D6B58EB09B40E6 /* RadarChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB537A4EB41D4D54851029B53537ECC /* Build configuration list for PBXNativeTarget "RadarChartView" */;
+			buildPhases = (
+				EF0F7DF3FF5A959D5C8D06DFF69266D0 /* Sources */,
+				50BD48D6B09F7126A7AB5A7EA67635A1 /* Frameworks */,
+				AF7860BAD5984A307B56C0CC6A2D7BD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadarChartView;
+			productName = RadarChartView;
+			productReference = A802221622365DA4544AFA6F2169D054 /* RadarChartView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FD68CB13EBA19EF3CA5A4B976BC0B915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2361768A3F10E961421C563FB5FFD18C /* Pods-RadarChartView_Example */,
+				7DBC88893D02423459D6B58EB09B40E6 /* RadarChartView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E698E3F75154DA2DF4A207B403346BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601545B42ED48D99B581C3D3D58EE093 /* Pods-RadarChartView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0F7DF3FF5A959D5C8D06DFF69266D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6289EB1CCA29B26915E05D88C05B7CDF /* ChartData.swift in Sources */,
+				6297C286A7F1DD04A22B8B227647A8A2 /* RadarChartView-dummy.m in Sources */,
+				CD88A6FC24478777E9C40DFFA0955E3E /* RadarChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2CBD5C83B5697DADD9C3DB21A71524A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RadarChartView;
+			target = 7DBC88893D02423459D6B58EB09B40E6 /* RadarChartView */;
+			targetProxy = AB2F28536C1068AE002F60DDC4EAFC27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		222343211253B1FEC69ABD89BE0394B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7B0AFCB53897579C1E7E4495532B77 /* RadarChartView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RadarChartView/RadarChartView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RadarChartView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RadarChartView/RadarChartView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RadarChartView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44616FF9E4C417DFA83785ADFB673716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112DF0F5C5231E290AA709933C3C4BDA /* Pods-RadarChartView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RadarChartView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadarChartView_Example/Pods-RadarChartView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RadarChartView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74C8911593242E51A57E7C5218725F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7B0AFCB53897579C1E7E4495532B77 /* RadarChartView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RadarChartView/RadarChartView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RadarChartView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RadarChartView/RadarChartView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RadarChartView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF54A3A84F0FD763D4E8C73AD7F985BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD96B261C54D3EBBBD9CE35590E97C9 /* Pods-RadarChartView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RadarChartView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadarChartView_Example/Pods-RadarChartView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RadarChartView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB537A4EB41D4D54851029B53537ECC /* Build configuration list for PBXNativeTarget "RadarChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222343211253B1FEC69ABD89BE0394B3 /* Debug */,
+				74C8911593242E51A57E7C5218725F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75DA14584145B9FB02C7834CAE09705 /* Build configuration list for PBXNativeTarget "Pods-RadarChartView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44616FF9E4C417DFA83785ADFB673716 /* Debug */,
+				DF54A3A84F0FD763D4E8C73AD7F985BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

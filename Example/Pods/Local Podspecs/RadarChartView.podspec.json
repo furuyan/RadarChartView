@@ -1,0 +1,21 @@
+{
+  "name": "RadarChartView",
+  "version": "0.1.0",
+  "summary": "A short description of RadarChartView.",
+  "homepage": "https://github.com/furuyan/RadarChartView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "furuyan": "kfuruyan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/furuyan/RadarChartView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RadarChartView/Classes/**/*"
+}

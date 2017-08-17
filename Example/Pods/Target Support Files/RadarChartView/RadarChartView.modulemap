@@ -1,0 +1,6 @@
+framework module RadarChartView {
+  umbrella header "RadarChartView-umbrella.h"
+
+  export *
+  module * { export * }
+}
