@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RadarChartView_Example' do
+  pod 'RadarChartView', :path => '../'
+
+  target 'RadarChartView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
