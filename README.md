@@ -35,6 +35,8 @@ chartView.frame = CGRect(x: 0, y: 100, width: view.frame.width, height: view.fra
 view.addSubview(chartView)
 ```
 
+If you use `RadarChartView` in UITableViewCell, watch this [sample](https://github.com/furuyan/RadarChartView/blob/master/Example/RadarChartView/RadarChartViewController2.swift)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
