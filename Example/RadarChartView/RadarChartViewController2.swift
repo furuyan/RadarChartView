@@ -11,6 +11,11 @@ import RadarChartView
 
 class RadarChartViewController2: UITableViewController {
     let cellHeight = CGFloat(300)
+    
+    // flags that has been displayed
+    var hasBeenDisplayed = [IndexPath: Bool]()
+    
+    // cell's title
     let texts: [String] = ["First", "Second", "Third", "Fourth", "Fifth"]
     let dataSets: [[ChartDataSet]] = {
         var dataSets = [[ChartDataSet]]()
@@ -45,6 +50,15 @@ class RadarChartViewController2: UITableViewController {
         cell.label.text = texts[indexPath.row]
         cell.chartView.frame = CGRect(x: labelWidth, y: 0, width: view.frame.width - labelWidth, height: cellHeight)
         cell.chartView.dataSets = dataSets[indexPath.row]
+        
+        // Perform animation when each cell is displayed on first time.
+        if let flag = hasBeenDisplayed[indexPath], flag {
+            cell.chartView.isAnimationEnabled = false
+        } else {
+            hasBeenDisplayed[indexPath] = true
+            cell.chartView.isAnimationEnabled = true
+        }
+
         return cell
     }
 }
