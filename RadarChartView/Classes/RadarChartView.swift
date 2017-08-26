@@ -25,12 +25,16 @@ public class RadarChartView: UIView {
     // MARK: display datas
     public var titles = [String]()
     public var webTitles = [String]()
-    public var dataSets = [ChartDataSet]()
+    public var dataSets = [ChartDataSet]() {
+        didSet {
+            setNeedsDisplay()
+        }
+    }
     
     // MARK: animation settings
     public var animationDuration = 0.3
     public var animationDelay = 0.5
-    public var animationEnabled = true
+    public var isAnimationEnabled = true
     
     // MARK: private
     private var radius = CGFloat(100.0)
@@ -214,7 +218,7 @@ public class RadarChartView: UIView {
         dataLayer.path = path.cgPath
         layer.addSublayer(dataLayer)
         
-        if animationEnabled {
+        if isAnimationEnabled {
             let beforePath = UIBezierPath(arcCenter: center, radius: 1, startAngle: 0, endAngle: CGFloat(2.0 * Double.pi), clockwise: true).cgPath
             dataLayer.path = beforePath
             let anim = CABasicAnimation(keyPath:"path")
