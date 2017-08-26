@@ -1,3 +1,11 @@
+//
+//  RadarChartViewController.swift
+//  RadarChartView
+//
+//  Created by furuyan on 2017/08/24.
+//  Copyright (c) 2017 furuyan. All rights reserved.
+//
+
 import UIKit
 import RadarChartView
 

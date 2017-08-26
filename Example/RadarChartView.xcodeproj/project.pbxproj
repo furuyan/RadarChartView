@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B266A2B1F4E632C0049FDBA /* RadarChartViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B266A2A1F4E632C0049FDBA /* RadarChartViewController2.swift */; };
 		0BACC95C1F45F3740076610C /* RadarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BACC95B1F45F3740076610C /* RadarChartViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B266A2A1F4E632C0049FDBA /* RadarChartViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartViewController2.swift; sourceTree = "<group>"; };
 		0BACC95B1F45F3740076610C /* RadarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartViewController.swift; sourceTree = "<group>"; };
 		14D03ECA09A5304EF45D2978 /* Pods_RadarChartView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadarChartView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F64DAA2D7892DE58F376B8D /* Pods_RadarChartView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadarChartView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				0BACC95B1F45F3740076610C /* RadarChartViewController.swift */,
+				0B266A2A1F4E632C0049FDBA /* RadarChartViewController2.swift */,
 			);
 			name = "Example for RadarChartView";
 			path = RadarChartView;
@@ -252,6 +255,7 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				0BACC95C1F45F3740076610C /* RadarChartViewController.swift in Sources */,
+				0B266A2B1F4E632C0049FDBA /* RadarChartViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
