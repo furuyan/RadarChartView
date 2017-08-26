@@ -178,6 +178,7 @@ public class RadarChartView: UIView {
         for dataSet in dataSets {
             drawSingleData(rect, dataSet: dataSet)
         }
+        isAnimationEnabled = false
     }
     
     private func drawSingleData(_ rect: CGRect, dataSet: ChartDataSet) {
