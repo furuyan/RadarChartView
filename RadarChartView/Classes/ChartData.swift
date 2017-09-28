@@ -16,11 +16,9 @@ public struct ChartDataSet {
     public init() { }
 }
 
-
 public struct ChartDataEntry {
     public var value = CGFloat(0.0)
     public init(value: CGFloat) {
         self.value = value
     }
 }
-

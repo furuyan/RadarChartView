@@ -67,9 +67,7 @@ public class RadarChartView: UIView {
         
         webColor.setStroke()
         let center = CGPoint(x: bounds.width / 2.0, y: bounds.height / 2.0)
-        
-        /// draw horizontal web
-        
+
         var outerPaths = [UIBezierPath]()
         (0..<webCount).forEach { _ in
             outerPaths.append(UIBezierPath())

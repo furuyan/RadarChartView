@@ -36,11 +36,6 @@ class ViewController: UIViewController {
         view.addSubview(showChartOnTableViewButton)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     @objc func showChart() {
         navigationController?.pushViewController(RadarChartViewController(), animated: true)
     }
@@ -49,4 +44,3 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(RadarChartViewController2(), animated: true)
     }
 }
-
