@@ -41,11 +41,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func showChart() {
+    @objc func showChart() {
         navigationController?.pushViewController(RadarChartViewController(), animated: true)
     }
     
-    func showChartOnTableView() {
+    @objc func showChartOnTableView() {
         navigationController?.pushViewController(RadarChartViewController2(), animated: true)
     }
 }

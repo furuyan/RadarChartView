@@ -17,10 +17,10 @@ public class RadarChartView: UIView {
     public var maxValue = CGFloat(100.0)
     public var verticalChartInset = CGFloat(40.0)
     public var horizontalChartInset = CGFloat(50.0)
-    public var titleAttributes = [NSFontAttributeName: UIFont.systemFont(ofSize: 12),
-                           NSForegroundColorAttributeName: UIColor.black]
-    public var webTitleAttributes = [NSFontAttributeName: UIFont.systemFont(ofSize: 12),
-                              NSForegroundColorAttributeName: UIColor.black]
+    public var titleAttributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 12),
+                           NSAttributedStringKey.foregroundColor: UIColor.black]
+    public var webTitleAttributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 12),
+                              NSAttributedStringKey.foregroundColor: UIColor.black]
     
     // MARK: display datas
     public var titles = [String]()
@@ -127,7 +127,7 @@ public class RadarChartView: UIView {
             point.y = center.y - (labelDrawRadius * cos(angle))
             
             let drawString = NSString(string: title)
-            let stringSize = drawString.size(attributes: titleAttributes)
+            let stringSize = drawString.size(withAttributes: titleAttributes)
             
             let drawRect = CGRect(x: point.x - stringSize.width / 2.0,
                                   y: point.y - stringSize.height / 2.0,
@@ -160,7 +160,7 @@ public class RadarChartView: UIView {
             point.y = center.y - innerRadius
             
             let drawString = NSString(string: title)
-            let stringSize = drawString.size(attributes: webTitleAttributes)
+            let stringSize = drawString.size(withAttributes: webTitleAttributes)
             
             let drawRect = CGRect(x: point.x - stringSize.width - 3,
                                   y: point.y - stringSize.height,
