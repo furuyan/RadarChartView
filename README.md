@@ -43,7 +43,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 - iOS 9.0+
-- Swift 3.1
+- Swift 4.0
 
 ## Installation
 
